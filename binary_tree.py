@@ -38,15 +38,3 @@ class BinaryTree:
         while node.left: node = node.left
         return node
 #end
-# not the main code
-tree = BinaryTree()
-
-for key in [20, 8, 22, 4, 12, 10, 14, 100, 90, 100.5]:
-    tree.insert(key)
-
-print("Tree before deletion:")
-tree.show()
-print("\nDeleting 8...")
-tree.delete(8)
-print("Tree after")
-tree.show()
